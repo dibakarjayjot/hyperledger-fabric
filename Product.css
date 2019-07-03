@@ -1,0 +1,127 @@
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 100%;
+}
+.column2 {
+  float: left;
+  width: 75%;
+  padding: 10px;
+  height: 100%;
+}
+
+.column3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.prod{
+  margin-top:5%;
+  margin-right:5%;
+  margin-left:5%; 
+  margin-bottom:5%; 
+}
+.details{
+  
+      margin-top:5%;
+      margin-right:5%;
+      margin-left:5%; 
+      margin-bottom:5%; 
+    
+}
+
+.info{
+  
+      margin-top:5%;
+      margin-right:5%;
+      margin-left:5%; 
+      margin-bottom:5%; 
+    
+}
+
+.tabular{
+  
+  margin-top:5%;
+  margin-right:5%;
+  margin-left:5%; 
+  margin-bottom:5%; 
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 15%;
+}
+
+li {
+  float: left;
+  width:50%;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+tr,td {
+  text-align: left;
+  border-right: 1px solid #dddddd;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width:100%
+  
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}

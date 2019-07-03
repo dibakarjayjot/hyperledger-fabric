@@ -1,0 +1,30 @@
+.main13{
+    padding-top:100px;
+      margin-left:25%;
+      margin-right:5%;
+      height: 1000px;
+      overflow: scroll;
+     
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+
+    tbody {
+        counter-reset: row;
+        /* Set the row counter to 0 */
+      }
+      
+      tbody tr::before {
+        counter-increment: row;
+        /* Increment the row counter*/
+        content: " "counter(row);
+       
+        /* Display the row */
+      }
+    
+     tr{
+        text-align: center;
+      border-bottom: 1px solid #E0E0E0;
+      }
+    

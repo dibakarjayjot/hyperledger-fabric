@@ -1,0 +1,69 @@
+.main2{
+  margin-left:25%;
+  margin-right:25%;
+  padding-top:2%;
+  height:1000px;
+}
+
+.column77 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100%;
+  border-bottom: 5px solid black;
+}
+
+.column78 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100%;
+  border-bottom: 5px solid green;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tabular{
+  
+  margin-top:5%;
+  margin-right:5%;
+  margin-left:5%; 
+  margin-bottom:5%; 
+
+
+}
+
+.retro {
+  padding: 10px;
+  overflow: hidden;
+  height: 100%;
+  background:white;
+}
+.retro button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width:100%
+  
+}
+
+.retro button:hover {
+  background-color: #ddd;
+}
+
+.retro button.active {
+  background-color: yellow;
+}
+
+.retrocontent {
+  display: none;
+  padding: 6px 12px;
+}

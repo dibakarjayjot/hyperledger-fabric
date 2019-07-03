@@ -1,0 +1,55 @@
+.product{
+    width:100%;
+    
+}
+ .timg{
+    overflow: visible;
+ }
+
+ .tu{
+  border-top: 1px solid #E0E0E0;
+  }
+
+.tease
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;     /* fallback */
+    max-height: 32px;      /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    font-size: 15px;
+      
+}
+.outter
+{
+    white-space: nowrap;
+    padding-top:5px;
+    overflow: hidden;
+   
+}
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:5%;
+    margin-bottom:5%;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  .fimg {
+      padding-right:10px;
+  }

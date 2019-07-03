@@ -1,0 +1,39 @@
+
+  .twenty {
+    float: left;
+    width: 20%;
+    height: 100%;
+    
+  }
+    .thirty {
+    float: left;
+    width: 30%;
+    height: 100%;
+  
+  }
+  
+
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .test{
+  border: 1px solid grey;
+  margin-bottom:5%;
+  margin-left:5%;
+  margin-right:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  padding-left:5%;
+  padding-right:5%;
+  }
+  .right{
+  text-align:right;
+  }
+  .button4 {border-radius: 10%;}
+  
+  
+  

@@ -1,0 +1,30 @@
+
+.img-container {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+  color: 	#516171;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-right: 11%;
+  margin-left: 11%;
+  background-color: white;
+}
+.pimg
+{
+  width: 80%;
+  height: 40%;
+}
+.qimg
+{
+  width: 10%;
+  height: 10%;
+}
+
+

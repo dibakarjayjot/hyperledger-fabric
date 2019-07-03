@@ -1,0 +1,16 @@
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,	#ffffff 0,	#ffffff 100%) !important; /* override background image gradient w/ flat color */
+    height: 55px;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-brand>img {
+    padding: 7px 14px;
+  }
+  .navbar-nav .nav-link {
+    margin-right: 20px;
+    font-size: 13px;
+}

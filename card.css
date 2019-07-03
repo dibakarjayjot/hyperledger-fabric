@@ -1,0 +1,31 @@
+.product{
+    margin-left:10%;
+    margin-top:10%;
+    width:20%;
+    
+}
+ .timg{
+     height:100%;
+     display: block;
+    margin: 0 auto;
+  width: 100%;
+ }
+.tease
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;     /* fallback */
+    max-height: 32px;      /* fallback */
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    font-size: 15px;
+      
+}
+.outter
+{
+    white-space: nowrap;
+    padding-top:5px;
+    overflow: hidden;
+   
+}

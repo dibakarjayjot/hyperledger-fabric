@@ -1,0 +1,52 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+html, body, .app {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+width:100%;
+top:11%;
+	bottom: 0;
+	left: 20%;
+	right: 0;
+  margin: auto;
+  
+}
+ .button {
+	   background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+ color: #808080;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+     line-height: 12px;
+     width: 18px;
+     font-size: 8pt;
+     font-family: tahoma;
+     
+     margin-top: 1px;
+     margin-right: 2px;
+     position:absolute;
+     top:0;
+     right:51%;
+ }
+

@@ -1,0 +1,121 @@
+.main14{
+    padding-top:100px;
+      margin-left:25%;
+      margin-right:5%;
+      height: 1000px;
+      overflow: scroll;
+     
+}
+.main15{
+    padding-top:100px;
+      margin-left:25%;
+      margin-right:5%;
+      height: 400px;
+      overflow: scroll;
+     
+}
+
+.lay1{
+    text-align: left;
+}
+.lay2{
+text-align:right;
+}
+
+.trybutton {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  color:blue;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+/* Style the tab */
+.lab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  margin-bottom:10px;
+}
+
+/* Style the buttons inside the tab */
+.lab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  width:100%;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.lab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.lab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.labcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.columnx2 {
+  float: left;
+   text-align:right;
+  width: 10%;
+  padding: 10px;
+  height: 100%; 
+}
+.columnx {
+  float: left;
+  text-align:left;
+  width: 45%;
+  padding: 10px;
+  height: 100%;
+}
+.columnx3 {
+  float: left;
+  text-align:right;
+  width: 45%;
+  padding: 10px;
+  height: 100%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+.popover {
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 15px;
+  position: absolute;
+  top: 100%;
+  left: -500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popover-container {
+  width: 100%;
+  
+  position: relative;
+}

@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+#side-menu{
+   list-style-type: none;
+    
+    margin-top: 55px;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 945px;
+    overflow: hidden; 
+}
+
+.ui.menu#side-menu a.item{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+    .ui.menu#side-menu a.item:hover {
+    background-color: green;
+    color: white;
+}
+
+.ui.menu#side-menu a.active {
+    background-color: green;
+    color: white;
+}
+
+.main{
+  margin-left:25%;
+  padding-top:100px;
+  height:1000px;
+}
+
